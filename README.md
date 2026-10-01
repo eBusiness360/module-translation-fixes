@@ -8,6 +8,7 @@ language pack (for French, [`maxcode/language-fr_fr`](https://github.com/eBusine
 |---|---|
 | “Login as Customer” button (customer and order pages) | `Login as Customer` |
 | Admin media gallery | `Manage Gallery`, `Media Gallery` (also repairs the “Delete Images” mode once they are translated) |
+| Image deletion confirmation | `Used In` (the “used in the following content” warning survives its translation) |
 
     composer require maxcode/module-translation-fixes
     bin/magento setup:upgrade

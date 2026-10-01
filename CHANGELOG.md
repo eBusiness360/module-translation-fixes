@@ -8,6 +8,9 @@
   “Delete Images” mode in any translated admin (the page title was compared to the English text;
   “Media Gallery” is already translated by community language packs, so the slide panel opened
   from a product page was broken).
+- Media gallery: the image deletion confirmation finds the “Used In” section whether its title is
+  in English or translated. Before, any translation of “Used In” silently removed the warning
+  listing the content that uses the image.
 
 ### Compatibility
 - No dependency on the fixed modules: a store that removed `Magento_LoginAsCustomerAdminUi` or
