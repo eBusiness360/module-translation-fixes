@@ -1,6 +1,8 @@
 # Changelog — maxcode/module-translation-fixes
 
-## [Unreleased]
+## [1.0.0] — 2026-10-01
+
+First public release.
 
 ### Added
 - “Login as Customer” button label passed through `__()`.
