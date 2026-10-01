@@ -1,0 +1,17 @@
+{
+    "name": "maxcode/module-translation-fixes",
+    "description": "Makes translatable the Magento strings that are not exposed to translation. Contains no translations: they come from language packs.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {"name": "eBusiness360 – Maxime LESGUILLIER", "homepage": "https://github.com/eBusiness360"}
+    ],
+    "require": {
+        "php": ">=8.1",
+        "magento/framework": "^103.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {"Maxcode\\TranslationFixes\\": ""}
+    }
+}
