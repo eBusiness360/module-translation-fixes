@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Declare sur le type : les deux virtualType du module cible en heritent. -->
+    <type name="Magento\LoginAsCustomerAdminUi\Ui\Customer\Component\Button\DataProvider">
+        <plugin name="maxcode_translation_fixes_login_as_customer_label"
+                type="Maxcode\TranslationFixes\Plugin\LoginAsCustomer\TraduireLibelleBouton"/>
+    </type>
+</config>
