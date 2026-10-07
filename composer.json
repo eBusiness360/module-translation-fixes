@@ -1,6 +1,6 @@
 {
     "name": "maxcode/module-translation-fixes",
-    "description": "Makes translatable the Magento strings that are not exposed to translation. Contains no translations: they come from language packs.",
+    "description": "EN: Magento 2 module that makes translatable the strings Magento does not expose to translation. It contains no translations: they come from language packs. FR : Module Magento 2 qui rend traduisibles les chaînes que Magento n'expose pas à la traduction. Il ne contient aucune traduction : elles viennent des packs de langue.",
     "type": "magento2-module",
     "license": "MIT",
     "authors": [

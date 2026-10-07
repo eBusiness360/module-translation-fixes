@@ -1,5 +1,11 @@
 # Changelog — maxcode/module-translation-fixes
 
+## [1.0.1] — 2026-10-07
+
+### Changed
+- `composer.json`: bilingual English / French description (shown as is on Packagist), naming
+  Magento 2 in both languages. No code change.
+
 ## [1.0.0] — 2026-10-01
 
 First public release.
