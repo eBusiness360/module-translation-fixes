@@ -1,5 +1,7 @@
 # Translation fixes for Magento 2
 
+![Packagist](https://img.shields.io/packagist/v/maxcode/module-translation-fixes?color=0F1E4D)
+
 Makes translatable some strings that Magento displays without passing them through `__()` or `$t()`.
 **It contains no translation and works for every language**: the translations come from your
 language pack (for French, [`maxcode/language-fr_fr`](https://github.com/eBusiness360/language-fr_fr)).

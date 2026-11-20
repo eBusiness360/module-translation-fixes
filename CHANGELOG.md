@@ -1,5 +1,10 @@
 # Changelog — maxcode/module-translation-fixes
 
+## [1.0.2] — 2026-11-20
+
+### Changed
+- README: Packagist version badge. No code change.
+
 ## [1.0.1] — 2026-10-07
 
 ### Changed
